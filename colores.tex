@@ -1,0 +1,39 @@
+\documentclass[a4paper]{article}
+
+\usepackage[latin1]{inputenc}
+\usepackage{color}
+\usepackage{url}
+\usepackage{todonotes}
+
+
+\newcommand{\notajj}[1]{\todo[linecolor=green,backgroundcolor=green!90!white,bordercolor=purple]{#1}}
+
+\begin{document}
+
+\title{Eligiendo nuestros colores para todonotes}
+
+\author{Geneura at large}
+
+\maketitle
+
+\listoftodos
+
+\begin{abstract}
+ Vamos a elegir cada uno un color para trabajar con {\tt todonotes}
+para hacer nuestras anotaciones. \notajj{Ir añadiendo aquí las notas propias}
+ Hay que instalarlo de
+\url{http://ctan.org/pkg/todonotes} y luego añadir una anotación aquí
+o donde sea que indique el color que vamos a elegir. En el manual (y
+ahí más arriba en el fuente) explica cómo hacer una macro para cada
+uno. 
+\end{abstract}
+
+\section{Acknowledgements}
+
+This work has been supported in part by
+FPU research grant AP2009-2942 and projects SIPESCA (under Programa
+Operativo FEDER de Andalucía 2007-2013) and TIN2011-28627-C04-02
+awarded by the Spanish Ministry of Economy and Competitivity.\notajj{Aprovechamos y metemos aquí los proyectos a los que haya que
+  agradecerles en cada momento}
+
+\end{document}
